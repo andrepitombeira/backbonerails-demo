@@ -10,6 +10,7 @@ gem 'thin'
 gem 'rabl'
 gem 'oj'
 gem 'gon'
+gem 'js-routes'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -21,7 +22,7 @@ group :assets do
 	gem 'bootstrap-sass-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
+  # gem 'therubyracer', :platforms => :ru by
 
   gem 'uglifier', '>= 1.0.3'
 end
