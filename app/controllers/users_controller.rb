@@ -3,6 +3,6 @@ class UsersController < ApplicationController
 
   def index
     sleep 3
-    @users = User.all
+    @users = nil #User.all
   end
 end
